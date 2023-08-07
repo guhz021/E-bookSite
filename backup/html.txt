@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E=Book</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="header">
+        <img class="logo" src="img/logo.png">
+    </div>
+    <div class="menu">
+        <p>Meus Livros</p>
+        <p>Explorar</p>
+        <p>Apresentação</p>
+    </div>
+
+    <div class="capa">
+        <img class=IMGcapa src="img/capa.png">
+        <div class="booked">
+            <img src="img/booked.png">
+        </div>
+        <div class="BarraBusca"> <p class="txt1">O que você quer pesquisar?</p>
+            
+        </div>
+        <img class="lupa" src="img/lupa.png">
+
+        <img class="rodape" src="img/rodape.png">
+    </div>
+
+    <div class="genero"><h1>Gêneros</h1></div>
+    <div class="txt2"><p>Aqui você pode visualizar os E-books e outras diversas obras 
+    de cada gênero disponíveis em nosso site</p></div>
+
+    <div class="container">
+        <button type="button" id="ToggleBtn" class="no-background">
+            <div class="quadro"><p class="txt3"><strong>ROMANCE </strong> </p></div>
+        </button>
+        
+        <button type="button" id="ToggleBtn3" class="no-background">
+            <div class="quadro"><p class="txt3"><strong>SUSPENSE </strong></p></div>
+        </button>
+        
+        <button type="button" id="ToggleBtn5" class="no-background">
+             <div class="quadro"><p class="txt3"><strong>TERROR </strong></p></div>
+        </button>
+
+        <button type="button" id="ToggleBtn7" class="no-background">
+            <div class="quadro"><p class="txt3"><strong>LITERATURA <br> INFANTIL  </strong></p></div>
+        </button>
+
+    </div>
+
+    <div class="container2">
+        <button type="button" id="ToggleBtn9" class="no-background">
+            <div class="quadro"><p class="txt3"><strong>LITERATURA <br> JAPONESA </strong></p></div>
+        </button>
+
+        <button type="button" id="ToggleBtn11" class="no-background">
+            <div class="quadro"><p class="txt3"><strong>FICÇÃO <br> CIENTÍFICA </strong></p></div>
+        </button>
+
+        <button type="button" id="ToggleBtn13" class="no-background">
+            <div class="quadro"><p class="txt3"><strong>COMÉDIA </strong></p></div>
+        </button>
+
+        <button type="button" id="ToggleBtn15" class="no-background">
+            <div class="quadro"><p class="txt3"><strong>CULTURA <br> POP </strong></p></div>
+        </button>
+    </div>
+
+    <div class="container3">
+             <div class="quadro2">
+                 <p class="txt4">Acessar todas as obras</p>
+             </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <p>Meus Livros</p>
+            <p>Explorar</p>
+            <p>Feito com &#10084 por <strong>Gustavo Aquino</strong> </p>
+        </div>
+    </footer>
+    <!-- overlays -->
+    <div id="overlay">
+        <div class="genero1">
+            <p class="txt5"><strong>Livros de Romance</strong>  </p>
+            <button type="button" id="ToggleBtn2" class="no-background2">
+                <img src="img/fechar.png" class="BotaoFechar">
+            </button>  
+        
+        <div class="ContainerLivros">
+            <button class="arrow-left control" aria-label="Previous image">⇽</button>
+            <button class="arrow-right control" aria-label="Next image">⇾</button>
+                <!-- slider carousel -->
+                <div class="gallery-wrapper">
+                    <div class="gallery">
+                        <img src="img/livro1.png" class="item current-item">
+                        <img src="img/livro2.png" class="item ">
+                        <img src="img/livro3.png" class="item ">
+                        <img src="img/livro4.png" class="item ">
+                        <img src="img/livro5.png" class="item ">
+                        <img src="img/livro6.png" class="item ">
+                        <img src="img/livro7.png" class="item ">
+                        <img src="img/livro8.png" class="item ">
+                        <img src="img/livro9.png" class="item ">
+                        <img src="img/livro10.png" class="item ">
+                    </div>
+                </div>
+        </div>
+        </div>
+    </div>
+
+    <div id="overlay2">
+        <div class="genero1">
+            <p class="txt5"><strong>Livros de Suspense</strong> </p>
+            <button type="button" id="ToggleBtn4" class="no-background2">
+                <img src="img/fechar.png" class="BotaoFechar">
+            </button>  
+            <!-- slider carousel -->
+        <div class="ContainerLivros">
+            <button class="arrow-left2 control2" aria-label="Previous image">⇽</button>
+            <button class="arrow-right2 control2" aria-label="Next image">⇾</button>
+                <div class="gallery-wrapper">
+                    <div class="gallery">
+                        <img src="img/suspense1.png" class="item2 current-item2">
+                        <img src="img/suspense2.png" class="item2 ">
+                        <img src="img/suspense3.png" class="item2 ">
+                        <img src="img/suspense4.png" class="item2 ">
+                        <img src="img/suspense5.png" class="item2 ">
+                        <img src="img/suspense6.png" class="item2 ">
+                        <img src="img/suspense7.png" class="item2 ">
+                        <img src="img/suspense8.png" class="item2 ">
+                        <img src="img/suspense9.png" class="item2 ">
+                        <img src="img/suspense10.png" class="item2 ">
+                    </div>
+                </div>
+        </div>  
+        </div>
+    </div>
+
+    <div id="overlay3">
+        <div class="genero1">
+            <p class="txt5"><strong>Livros de Terror</strong> </p>
+            <button type="button" id="ToggleBtn6" class="no-background2">
+                <img src="img/fechar.png" class="BotaoFechar">
+            </button>  
+            <!-- slider carousel --> 
+            <div class="ContainerLivros">
+                <button class="arrow-left3 control3" aria-label="Previous image">⇽</button>
+                <button class="arrow-right3 control3" aria-label="Next image">⇾</button>
+                    <div class="gallery-wrapper">
+                        <div class="gallery">
+                            <img src="img/terror1.png" class="item3 current-item3">
+                            <img src="img/terror2.png" class="item3 ">
+                            <img src="img/terror3.png" class="item3 ">
+                            <img src="img/terror4.png" class="item3 ">
+                            <img src="img/terror5.png" class="item3 ">
+                            <img src="img/terror6.png" class="item3 ">
+                            <img src="img/terror7.png" class="item3 ">
+                            <img src="img/terror8.png" class="item3 ">
+                            <img src="img/terror9.png" class="item3 ">
+                            <img src="img/terror10.png" class="item3 ">
+                        </div>
+                    </div>
+            </div>  
+        </div>
+    </div>
+
+    <div id="overlay4">
+        <div class="genero1">
+            <p class="txt5-1"><strong>Livros de Literatura Infantil</strong> </p>
+            <button type="button" id="ToggleBtn8" class="no-background2">
+                <img src="img/fechar.png" class="BotaoFechar">
+            </button>  
+            <!-- slider carousel -->
+            <div class="ContainerLivros">
+                <button class="arrow-left4 control4" aria-label="Previous image">⇽</button>
+                <button class="arrow-right4 control4" aria-label="Next image">⇾</button>
+                    <div class="gallery-wrapper">
+                        <div class="gallery">
+                            <img src="img/infantil1.png" class="item4 current-item4">
+                            <img src="img/infantil2.png" class="item4 ">
+                            <img src="img/infantil3.png" class="item4 ">
+                            <img src="img/infantil4.png" class="item4 ">
+                            <img src="img/infantil5.png" class="item4 ">
+                            <img src="img/infantil6.png" class="item4 ">
+                            <img src="img/infantil7.png" class="item4 ">
+                            <img src="img/infantil8.png" class="item4 ">
+                            <img src="img/infantil9.png" class="item4 ">
+                            <img src="img/infantil10.png" class="item4 ">
+                        </div>
+                    </div>
+            </div>   
+        </div>
+    </div>
+
+    <div id="overlay5">
+        <div class="genero1">
+            <p class="txt5-1"><strong>Livros de Literatura Japonesa</strong> </p>
+            <button type="button" id="ToggleBtn10" class="no-background2">
+                <img src="img/fechar.png" class="BotaoFechar">
+            </button> 
+            <!-- slider carousel -->
+            <div class="ContainerLivros">
+                <button class="arrow-left5 control5" aria-label="Previous image">⇽</button>
+                <button class="arrow-right5 control5" aria-label="Next image">⇾</button>
+                    <div class="gallery-wrapper">
+                        <div class="gallery">
+                            <img src="img/manga1.png" class="item5 current-item5">
+                            <img src="img/manga2.png" class="item5 ">
+                            <img src="img/manga3.png" class="item5 ">
+                            <img src="img/manga4.png" class="item5 ">
+                            <img src="img/manga5.png" class="item5 ">
+                            <img src="img/manga6.png" class="item5 ">
+                            <img src="img/manga7.png" class="item5 ">
+                            <img src="img/manga8.png" class="item5 ">
+                            <img src="img/manga9.png" class="item5 ">
+                            <img src="img/manga10.png" class="item5 ">
+                        </div>
+                    </div>
+            </div>    
+        </div>
+    </div>
+
+    <div id="overlay6">
+        <div class="genero1">
+            <p class="txt5-2"><strong>Livros de Ficção Científica</strong> </p>
+            <button type="button" id="ToggleBtn12" class="no-background2">
+                <img src="img/fechar.png" class="BotaoFechar">
+            </button> 
+            <!-- slider carousel -->   
+            <div class="ContainerLivros">
+                <button class="arrow-left6 control6" aria-label="Previous image">⇽</button>
+                <button class="arrow-right6 control6" aria-label="Next image">⇾</button>
+                    <div class="gallery-wrapper">
+                        <div class="gallery">
+                            <img src="img/fic1.png" class="item6 current-item6">
+                            <img src="img/fic2.png" class="item6 ">
+                            <img src="img/fic3.png" class="item6 ">
+                            <img src="img/fic4.png" class="item6 ">
+                            <img src="img/fic5.png" class="item6 ">
+                            <img src="img/fic6.png" class="item6 ">
+                            <img src="img/fic7.png" class="item6 ">
+                            <img src="img/fic8.png" class="item6 ">
+                            <img src="img/fic9.png" class="item6 ">
+                            <img src="img/fic10.png" class="item6 ">
+                        </div>
+                    </div>
+            </div> 
+        </div>
+    </div>
+
+    <div id="overlay7">
+        <div class="genero1">
+            <p class="txt5"><strong>Livros de Comédia</strong> </p>
+            <button type="button" id="ToggleBtn14" class="no-background2">
+                <img src="img/fechar.png" class="BotaoFechar">
+            </button> 
+            <!-- slider carousel -->
+            <div class="ContainerLivros">
+                <button class="arrow-left7 control7" aria-label="Previous image">⇽</button>
+                <button class="arrow-right7 control7" aria-label="Next image">⇾</button>
+                    <div class="gallery-wrapper">
+                        <div class="gallery">
+                            <img src="img/comedia1.png" class="item7 current-item7">
+                            <img src="img/comedia2.png" class="item7 ">
+                            <img src="img/comedia3.png" class="item7 ">
+                            <img src="img/comedia4.png" class="item7 ">
+                            <img src="img/comedia5.png" class="item7 ">
+                            <img src="img/comedia6.png" class="item7 ">
+                            <img src="img/comedia7.png" class="item7 ">
+                            <img src="img/comedia8.png" class="item7 ">
+                            <img src="img/comedia9.png" class="item7 ">
+                            <img src="img/comedia10.png" class="item7 ">
+                        </div>
+                    </div>
+            </div>    
+        </div>
+    </div>
+
+    <div id="overlay8">
+        <div class="genero1">
+            <p class="txt5"><strong>Livros de Cultura POP</strong> </p>
+            <button type="button" id="ToggleBtn16" class="no-background2">
+                <img src="img/fechar.png" class="BotaoFechar">
+            </button>  
+            <!-- slider carousel -->
+            <div class="ContainerLivros">
+                <button class="arrow-left8 control8" aria-label="Previous image">⇽</button>
+                <button class="arrow-right8 control8" aria-label="Next image">⇾</button>
+                    <div class="gallery-wrapper">
+                        <div class="gallery">
+                            <img src="img/pop1.png" class="item8 current-item8">
+                            <img src="img/pop2.png" class="item8 ">
+                            <img src="img/pop3.png" class="item8 ">
+                            <img src="img/pop4.png" class="item8 ">
+                            <img src="img/pop5.png" class="item8 ">
+                            <img src="img/pop6.png" class="item8 ">
+                            <img src="img/pop7.png" class="item8 ">
+                            <img src="img/pop8.png" class="item8 ">
+                            <img src="img/pop9.png" class="item8 ">
+                            <img src="img/pop10.png" class="item8 ">
+                        </div>
+                    </div>
+            </div>   
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
